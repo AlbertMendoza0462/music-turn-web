@@ -1,0 +1,39 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    height: 70vh;
+    width: 400px;
+    max-height: 70vh;
+    max-width: 400px;
+    color: black;
+    margin: 5px;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: break-word;
+    overflow-y: auto;
+}
+
+.lista .item {
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    border: 1px solid #EDEDED;
+    border-left: 2px solid #EDEDED;
+    border-bottom: 2px solid #EDEDED;
+    margin-bottom: 5px;
+}
+
+.lista .item:hover {
+    background-color: #03dac538;
+}
+
+.lista .item:active {
+    transition: 0.1s;
+    background-color: lightblue;
+}
